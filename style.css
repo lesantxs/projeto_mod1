@@ -1,7 +1,12 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
 body{
     height: 100vh;
     background: #FFF301;
-    /* background-color: #E9030D; */
     display: flex;
     justify-content: center;
     align-items: center;
@@ -9,13 +14,15 @@ body{
 
 .apresentacao{
     background-color: white;
-    width: 75%;
-    padding: 30px 80px;
+    width: 78%;
+    height: 80%;
+    padding: 30px 65px;
     border: 4px dashed black;
 }
 
 .logo {
     width: 150px;  
+    padding-bottom: 5px;
 }
 
 .titulo{
@@ -24,6 +31,7 @@ body{
     -webkit-text-stroke-color: #000000;
     text-shadow: 2px 3px 0 #e9030d;
     font-family: Arial, Helvetica, sans-serif;
+    margin-bottom: 20px;
 }
 
 .titulo strong{
@@ -31,18 +39,25 @@ body{
     text-shadow: 2px 3px 0 black;
 }
 
-.intro{
+.intro1{
     font-family: Arial, Helvetica, sans-serif;
     text-align: center;
+    margin-bottom: 20px;
 }
 
-.escolha{
+.intro2{
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    font-weight: bold;
+}
+
+/* .escolha{
     font-family: Arial, Helvetica, sans-serif;
     text-transform: uppercase;
     font-size: larger;
     padding-top: 20px;
     padding-bottom: 8px;
-}
+} */
 
 .conteudo{
     display: flex;
@@ -55,9 +70,10 @@ body{
     display: flex;
     flex-direction: row;
     justify-content: space-around;
+    height: 60px;
 }
 
-.personagem{
+.iniciar{
     /* background-color: #E9030D; */
     width: 25%;
     display: flex;
@@ -78,13 +94,10 @@ body{
 .botao:hover{
     color: #FFF301;
     -webkit-text-stroke-width: 0.8px;
-    -webkit-text-stroke-color: #000000;
+    -webkit-text-stroke-color: black;
     text-shadow: 1px 2px 0 #e9030d;
 }
 
-.botao:active{
-    background-color: #e9030d;
-    border: none;
-    color: white;
-    -webkit-text-stroke-width: 0;
+ .botao:active{
+    background-color: black;
 }

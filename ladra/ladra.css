@@ -1,0 +1,31 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.cabecalho{
+    /* background: linear-gradient(#113589,#1c57bd) ; */
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.cabecalho img{
+    width: 140px;
+    margin: 10px;
+}
+
+.conteudo{
+    height: 100vh;
+    /* background: linear-gradient(white 80%, #1c57bd); */
+}
+
+footer{
+    background: linear-gradient(#953891 30%, #722583);
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

@@ -4,6 +4,20 @@
     box-sizing: border-box;
 }
 
+@font-face {
+    font-family: 'Secret Power';
+    src: url(./fontes/secret_power/Secret\ Power.otf) format('opentype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Roboto Crush';
+    src: url(./fontes/robot_crush/Robot\ Crush.ttf) format('truetype'), url(./fontes/robot_crush/Robot\ Crush.otf) format('opentype');
+    font-weight: normal;
+    font-style: normal;
+}
+
 body{
     height: 100vh;
     background: #FFF301;
@@ -13,11 +27,11 @@ body{
 }
 
 .apresentacao{
-    background-color: white;
+    background-color: #fffff9;
     width: 78%;
-    height: 80%;
+    height: 520px;
     padding: 30px 65px;
-    border: 4px dashed black;
+    border: 4px dashed #100201;
 }
 
 .logo {
@@ -27,28 +41,36 @@ body{
 
 .titulo{
     color: #FFF301;
-    -webkit-text-stroke-width: 1.7px;
-    -webkit-text-stroke-color: #000000;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: #100201;
     text-shadow: 2px 3px 0 #e9030d;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: 'Secret Power';
+    font-size: 40px;
     margin-bottom: 20px;
 }
 
 .titulo strong{
     color: #e9030d; 
-    text-shadow: 2px 3px 0 black;
+    text-shadow: 2px 3px 0 #100201;
 }
 
 .intro1{
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: 'Roboto Crush';
     text-align: center;
-    margin-bottom: 20px;
+    margin-bottom: 30px;
+    font-size: 16px;
+    font-weight: bold;
+    color: #100201;
+    -webkit-text-stroke-width: 0.1px;
+    -webkit-text-stroke-color: #ffffff;
 }
 
 .intro2{
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: 'Roboto Crush';
     text-align: center;
-    font-weight: bold;
+    margin-bottom: 20px;
+    font-size: 18px;
+    color: #100201e3;
 }
 
 .conteudo{
@@ -58,34 +80,27 @@ body{
     align-items: center;
 }
 
-.box-personagens{
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-    height: 60px;
-}
-
 .iniciar{
-    width: 25%;
+    height: 60px;
+    width: 100%;
     display: flex;
-    flex-direction: column;
     justify-content: center;
     align-items: center;
 }
 
 .botao {
-    background-color: white;
-    border: 5px solid black;
+    background-color: #fffff9;
+    border: 5px solid #100201;
     text-transform: uppercase;
-    font-weight: bold;
     font-size: 16px;
-    width: 80%;
+    width: 150px;
     height: 40px;
+    font-family: 'Secret Power';
 }
 .botao:hover{
     color: #FFF301;
     -webkit-text-stroke-width: 0.8px;
-    -webkit-text-stroke-color: black;
+    -webkit-text-stroke-color: #100201;
     text-shadow: 1px 2px 0 #e9030d;
 }
 

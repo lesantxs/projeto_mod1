@@ -1,6 +1,6 @@
 function iniciarEscolha(){
     var personagens = ""
-    while(personagens != 1 && personagens != 2 && personagens != 3){
+    while(true){
         personagens = prompt("*Present Mic se prepara* \n \n— Manda aííí!! \n \nEscolha o número do personagem: \n1 - Ladra \n2 - Segurança \n3 - Visita")
         if(personagens == 1){
             window.location.href = "./ladra/ladra.html"
@@ -11,5 +11,6 @@ function iniciarEscolha(){
         }else{
             alert("Errou, jovem! Digite um personagem válido.")
         }
+        break
     }
 }

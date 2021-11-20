@@ -4,6 +4,24 @@
     box-sizing: border-box;
 }
 
+@font-face {
+    font-family: 'Secret Power';
+    src: url(../fontes/secret_power/Secret\ Power.otf) format('opentype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Roboto Crush';
+    src: url(../fontes/robot_crush/Robot\ Crush.ttf) format('truetype'), url(./robot_crush/Robot\ Crush\.otf) format('opentype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+body {
+    background-color: rgba(233, 240, 255, 0.123);
+}
+
 .cabecalho{
     width: 100%;
     display: flex;
@@ -12,12 +30,102 @@
 }
 
 .cabecalho img{
-    width: 140px;
+    width: 135px;
     margin: 10px;
 }
 
 .conteudo{
     height: 100vh;
+}
+
+.principal{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.conteudo{
+    width: 800px;
+    height: 450px;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    margin-top: 0;
+}
+
+
+.rosto-visita{
+    width: 400px;
+    box-shadow: 2px 3px 3px #7d96db;
+}
+
+.sobre{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: left;
+    width: 300px;
+    height: 400px;
+    padding: 30px 10px;
+}
+
+.sobre h2{
+    padding: 10px 0;
+    font-family: 'Secret Power';
+    color: #e60d1f;
+    -webkit-text-stroke-width: 0.8px;
+    -webkit-text-stroke-color: #220404;
+    text-shadow: 1px 1px 0 #000000;
+}
+
+.sobre ul{
+    padding-bottom: 10px;
+    list-style: none;
+    font-family: 'Roboto Crush';
+    color: #03091a;
+    text-shadow: 2px 1px 0 #7d96db8e;
+}
+
+.resposta{
+    color: #f1f1f1;
+    -webkit-text-stroke-width: 0.8px;
+    -webkit-text-stroke-color: #113589;
+    padding-left: 10px;
+}
+
+.mais{
+    font-family: 'Roboto Crush';
+    color: #0f0e01;
+}
+
+.botao{
+    background: transparent;
+    border: 5px solid #03091a;
+    color: #03091a;
+    text-transform: uppercase;
+    font-size: 16px;
+    width: 120px;
+    height: 40px;
+    font-family: 'Secret Power';
+    margin: 35px 0 0 0;
+}
+
+.botao:hover{
+    border: 5px solid #e60d1f;
+    background: #e60d1f;
+    color: #03091a;
+    -webkit-text-stroke-width: 0.5px;
+    -webkit-text-stroke-color: #f1f1f1;
+}
+
+.botao:active{
+    border: 5px solid #1c57bd;
+    background: #2a61c0;
+    color: #7d96db;
+    -webkit-text-stroke-width: 0.8px;
+    -webkit-text-stroke-color: #000000;
 }
 
 footer{
@@ -26,4 +134,8 @@ footer{
     display: flex;
     justify-content: center;
     align-items: center;
+    font-family: 'Secret Power';
+    color: #f1f1f1;
+    -webkit-text-stroke-width: 0.9px;
+    -webkit-text-stroke-color: #03091a;
 }

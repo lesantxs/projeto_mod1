@@ -64,7 +64,7 @@ body {
     align-items: left;
     width: 300px;
     height: 400px;
-    padding: 30px 10px;
+    padding: 10px 10px;
 }
 
 .sobre h2{
@@ -94,6 +94,9 @@ body {
 .mais{
     font-family: 'Roboto Crush';
     color: #0f0e01;
+    width: 310px;
+    -webkit-text-stroke-width: 0.5px;
+    -webkit-text-stroke-color: #f1f1f1;
 }
 
 .botao{
@@ -111,7 +114,7 @@ body {
 .botao:hover{
     border: 5px solid #fff203d5;
     background: #fff203d5;
-    color: #ec0a0e;
+    color: #b40205;
     -webkit-text-stroke-width: 0.7px;
     -webkit-text-stroke-color: #fff203d5;
 }

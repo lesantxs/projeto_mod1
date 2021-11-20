@@ -19,7 +19,7 @@
 }
 
 body {
-    background-color: rgba(233, 240, 255, 0.123);
+    background-color: #f1f1f183;
 }
 
 .cabecalho{
@@ -32,10 +32,6 @@ body {
 .cabecalho img{
     width: 135px;
     margin: 10px;
-}
-
-.conteudo{
-    height: 100vh;
 }
 
 .principal{
@@ -68,7 +64,7 @@ body {
     align-items: left;
     width: 300px;
     height: 400px;
-    padding: 30px 10px;
+    padding: 10px 10px;
 }
 
 .sobre h2{
@@ -98,6 +94,9 @@ body {
 .mais{
     font-family: 'Roboto Crush';
     color: #0f0e01;
+    width: 310px;
+    -webkit-text-stroke-width: 0.5px;
+    -webkit-text-stroke-color: #f1f1f1;
 }
 
 .botao{

@@ -64,7 +64,7 @@ body{
     align-items: left;
     width: 300px;
     height: 400px;
-    padding: 30px 10px;
+    padding: 10px 10px;
 }
 
 .sobre h2{
@@ -94,6 +94,9 @@ body{
 .mais{
     font-family: 'Roboto Crush';
     color: #140318;
+    width: 310px;
+    -webkit-text-stroke-width: 0.5px;
+    -webkit-text-stroke-color: #f1f1f1;
 }
 
 .botao{
@@ -133,5 +136,5 @@ footer{
     font-family: 'Secret Power';
     color: #f1f1f1;
     -webkit-text-stroke-width: 0.8px;
-    -webkit-text-stroke-color: #140318
+    -webkit-text-stroke-color: #140318;
 }

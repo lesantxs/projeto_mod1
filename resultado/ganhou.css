@@ -1,0 +1,67 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+@font-face {
+    font-family: 'Roboto Crush';
+    src: url(../fontes/robot_crush/Robot\ Crush.ttf) format('truetype'), url(./robot_crush/Robot\ Crush\.otf) format('opentype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Aldo';
+    src: url(../fontes/aldo_the_apache/AldotheApache.ttf) format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+.conteudo{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(60, 255, 0);
+}
+
+.ganhou{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: 9px double black;
+    padding: 30px 60px;
+}
+
+.ganhou h1{
+    font-family: 'Aldo';
+    font-size: 100px;
+}
+
+.ganhou p{
+    font-family: "Roboto Crush";
+    font-size: 30px;
+    margin-bottom: 30px;
+}
+
+.ganhou button{
+    width: 130px;
+    height: 40px;
+    font-family: 'Aldo';
+    font-size: 20px;
+    border: 3px solid black;
+}
+
+.ganhou button:hover{
+    background: black;
+    color: white;
+}
+
+.ganhou button:active{
+    background: white;
+    color: black;
+}
+

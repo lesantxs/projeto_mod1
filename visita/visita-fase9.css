@@ -18,8 +18,8 @@
     font-style: normal;
 }
 
-body{
-    background-color: #f1f1f1;
+body {
+    background-color: rgba(233, 240, 255, 0.123);
 }
 
 .cabecalho{
@@ -31,35 +31,35 @@ body{
 }
 
 .cabecalho img{
-    width: 140px;
+    width: 135px;
     margin: 10px;
 }
 
 .principal{
-    height: 90vh;
+    height: 570px;
     width: 100%;
     display: flex;
     flex-direction: column;
     justify-content: center;
-    align-items: center;   
+    align-items: center;
 }
 
 .conteudo{
     box-sizing: border-box;
-    height: 330px;
+    height: 380px;
     width: 700px;
     display: flex;
     flex-direction: column;
     justify-content: center;
-    background: #9538900e;
-    border: 3.5px dashed #91698f;   
+    background: rgba(247, 247, 247, 0.726);
+    border: 3.5px dashed lightsteelblue;   
 }
 
 .historia{
     padding: 3px 25px;
     font-family: 'Roboto Crush';
     font-family: 'Roboto Crush';
-    color: #3b1444;
+    color: #113589;
     -webkit-text-stroke-width: 0.5px;
     -webkit-text-stroke-color: #f1f1f1;   
 }
@@ -74,42 +74,42 @@ body{
 
 .botao{
     background: transparent;
-    border: 5px solid #3b1444;
-    color: #3b1444;
+    border: 5px solid #03091a;
+    color: #03091a;
     text-transform: uppercase;
     font-size: 16px;
     width: 120px;
     height: 40px;
     font-family: 'Secret Power';
-    margin: 35px 0 0 0;
+    margin: 25px 0 0 0;
 }
 
 .botao:hover{
-    border: 5px solid #953891;
-    background: #953891;
-    color: #a0c4da;
-    -webkit-text-stroke-width: 0.7px;
-    -webkit-text-stroke-color: #140318;
+    border: 5px solid #e60d1f;
+    background: #e60d1f;
+    color: #03091a;
+    -webkit-text-stroke-width: 0.5px;
+    -webkit-text-stroke-color: #f1f1f1;
 }
 
 .botao:active{
-    border: 5px solid #a0c4da;
-    background: #a0c4da;
-    color: #fae4ff;
-    -webkit-text-stroke-width: 0.5px;
-    -webkit-text-stroke-color: #8b7291;
+    border: 5px solid #1c57bd;
+    background: #2a61c0;
+    color: #7d96db;
+    -webkit-text-stroke-width: 0.8px;
+    -webkit-text-stroke-color: #000000;
 }
 
 footer{
-    background: linear-gradient(#953891 30%, #722583);
+    background: linear-gradient(#1c57bd, #113589);
     height: 60px;
     display: flex;
     justify-content: center;
     align-items: center;
     font-family: 'Secret Power';
     color: #f1f1f1;
-    -webkit-text-stroke-width: 0.8px;
-    -webkit-text-stroke-color: #140318;
+    -webkit-text-stroke-width: 0.9px;
+    -webkit-text-stroke-color: #03091a;
 }
 
 @media (max-width: 700px) {
@@ -123,7 +123,7 @@ footer{
     .conteudo{
         width: 100%;
         height: auto;
-        padding: 3% 0;
+        padding: 3% 0;;
         text-align: center;
         border: none;
         background: none;
@@ -145,4 +145,3 @@ footer{
         padding: 0 2%;
     }
 }
-

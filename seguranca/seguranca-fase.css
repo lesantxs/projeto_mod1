@@ -81,3 +81,37 @@ footer{
     -webkit-text-stroke-width: 0.9px;
     -webkit-text-stroke-color: #0f0e01;
 }
+
+@media (max-width: 700px) {
+    .cabecalho{
+        margin-bottom: 5%;
+    }
+    .principal{
+        height: auto;
+    }
+
+    .conteudo{
+        width: 100%;
+        height: auto;
+        padding: 3% 0;;
+        text-align: center;
+        border: none;
+        background: none;
+    }
+
+    .historia{
+        padding: 7px;
+        font-size: 15px;
+    }
+
+    .box-botao{
+        height: auto;
+        margin-bottom: 10%;
+    }
+
+    footer{
+        text-align: center;
+        font-size: 14.5px;
+        padding: 0 2%;
+    }
+}

@@ -83,3 +83,25 @@
     background: rgb(255, 238, 238);
     color: black;
 }
+
+@media (max-width: 700px){
+
+    .conteudo{
+        width: 100%;
+    }
+    .perdeu{ 
+        display: flex;
+        justify-content: center;
+        border: none;
+        width: 80%;
+        padding: 15px;
+    }
+
+    .perdeu h1{
+        font-size: 50px;
+    }
+
+    .perdeu p{
+        font-size: 20px;
+    }
+}

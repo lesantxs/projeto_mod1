@@ -49,6 +49,20 @@ body {
     justify-content: left;
     align-items: center;
     margin-top: 0;
+    opacity: 0;
+    animation: slide normal 0.8s both;
+    transform: translateX(40px);
+}
+
+@keyframes slide {
+    from{
+        opacity: 0;
+    }
+
+    to{
+        opacity: 1;
+        transform: translateX(0);
+    }
 }
 
 
@@ -114,6 +128,9 @@ body {
     height: 40px;
     font-family: 'Secret Power';
     margin: 35px 0 0 0;
+    opacity: 0;
+    animation: slide normal 0.8s both;
+    transform: translateX(40px);
 }
 
 .botao:hover{

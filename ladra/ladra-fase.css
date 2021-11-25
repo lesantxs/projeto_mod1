@@ -53,6 +53,20 @@ body{
     justify-content: center;
     background: #9538900e;
     border: 3.5px dashed #91698f;   
+    opacity: 0;
+    animation: slide normal 0.8s both;
+    transform: translateX(40px);
+}
+
+@keyframes slide {
+    from{
+        opacity: 0;
+    }
+
+    to{
+        opacity: 1;
+        transform: translateX(0);
+    }
 }
 
 .historia{
@@ -82,6 +96,9 @@ body{
     height: 40px;
     font-family: 'Secret Power';
     margin: 35px 0 0 0;
+    opacity: 0;
+    animation: slide normal 0.8s both;
+    transform: translateX(40px);
 }
 
 .botao:hover{
@@ -116,8 +133,9 @@ footer{
     .cabecalho{
         margin-bottom: 5%;
     }
+
     .principal{
-        height: auto;
+        height: 100vh;;
     }
 
     .conteudo{

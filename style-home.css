@@ -75,7 +75,7 @@ body{
     font-size: 16px;
     font-weight: bold;
     color: #100201;
-    -webkit-text-stroke-width: 0.1px;
+    -webkit-text-stroke-width: 0.3px;
     -webkit-text-stroke-color: #ffffff;
 }
 

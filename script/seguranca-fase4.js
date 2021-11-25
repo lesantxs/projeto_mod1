@@ -6,7 +6,7 @@ function faseQuatroSeguranca(){
         } else if(resposta == 2){
             window.location.href = "../resultado/perdeu.html"
         } else if(resposta == 3){
-            window.location.href = "../seuranca/seguranca-fase5.html"
+            window.location.href = "../seguranca/seguranca-fase5.html"
         } else {
             alert("Errou, jovem! Digite uma resposta válida.")
         }

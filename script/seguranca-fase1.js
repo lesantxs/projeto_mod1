@@ -4,7 +4,7 @@ function faseUmSeguranca(){
         if (resposta == 1) {
             window.location.href = "../resultado/perdeu.html"
         } else if(resposta == 2){
-            window.location.href = "../seuranca/seguranca-fase2.html"
+            window.location.href = "../seguranca/seguranca-fase2.html"
         } else if(resposta == 3){
             window.location.href = "../resultado/perdeu.html"
         } else {

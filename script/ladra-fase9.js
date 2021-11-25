@@ -1,10 +1,10 @@
-function faseUmSeguranca(){
-    var resposta = prompt("Escolha um número: \n1 - Ir pro sul. \n2 - Ir pro oeste. \n3 -  Ir pro leste.")
+function faseNoveLadra(){
+    var resposta = prompt("Escolha um número: \n1 - Arrombar o cadeado. \n2 - Tentar abrir. \n3 - Quebrar o vidro.")
     while (true) {
         if (resposta == 1) {
             window.location.href = "../resultado/perdeu.html"
         } else if(resposta == 2){
-            window.location.href = "../seuranca/seguranca-fase2.html"
+            window.location.href = "../ladra/ladra-fase10.html"
         } else if(resposta == 3){
             window.location.href = "../resultado/perdeu.html"
         } else {

@@ -1,12 +1,12 @@
-function faseUmSeguranca(){
-    var resposta = prompt("Escolha um número: \n1 - Ir pro sul. \n2 - Ir pro oeste. \n3 -  Ir pro leste.")
+function faseSeteLadra(){
+    var resposta = prompt("Escolha um número: \n1 - Golpear. \n2 - Projetar algo. \n3 -  Inventar algo.")
     while (true) {
         if (resposta == 1) {
             window.location.href = "../resultado/perdeu.html"
         } else if(resposta == 2){
-            window.location.href = "../seuranca/seguranca-fase2.html"
-        } else if(resposta == 3){
             window.location.href = "../resultado/perdeu.html"
+        } else if(resposta == 3){
+            window.location.href = "../ladra/ladra-fase8.html"
         } else {
             alert("Errou, jovem! Digite uma resposta válida.")
         }

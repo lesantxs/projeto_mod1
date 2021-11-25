@@ -1,8 +1,8 @@
-function faseUmLadra(){
-    var resposta = prompt("Escolha um número: \n1 - Roubar o que era de seu interesse. \n2 - Roubar a pintura combinada. \n3 -  Ficar entediada e procurar em outro museu.")
+function faseQuatroVisita(){
+    var resposta = prompt("Escolha um número: \n1 - com um olhar confuso. \n2 -  atento ao que a mulher dizia. \n3 - parecendo duvidar.")
     while (true) {
         if (resposta == 1) {
-            window.location.href = "../ladra/ladra-fase2.html"
+            window.location.href = "../visita/visita-fase5.html"
         } else if(resposta == 2){
             window.location.href = "../resultado/perdeu.html"
         } else if(resposta == 3){

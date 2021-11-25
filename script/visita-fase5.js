@@ -1,10 +1,10 @@
-function faseUmSeguranca(){
-    var resposta = prompt("Escolha um número: \n1 - Ir pro sul. \n2 - Ir pro oeste. \n3 -  Ir pro leste.")
+function faseCincoVisita(){
+    var resposta = prompt("Escolha um número: \n1 - Ouví-lo e ir embora. \n2 - Ouví-lo, mas fazer algo. \n3 - Ouví-lo e não fazer nada.")
     while (true) {
         if (resposta == 1) {
             window.location.href = "../resultado/perdeu.html"
         } else if(resposta == 2){
-            window.location.href = "../seuranca/seguranca-fase2.html"
+            window.location.href = "../visita/visita-fase6.html"
         } else if(resposta == 3){
             window.location.href = "../resultado/perdeu.html"
         } else {
